@@ -1,3 +1,3 @@
 getgenv()._WebSocket = getgenv().WebSocket
 getgenv().WebSocket = nil
-assert(getexecutorname() == "Argon", "This is not the official Argon exec
+assert(getexecutorname() == "Argon", "This is not the official Argon executor. Use at your own risk!", 3)
